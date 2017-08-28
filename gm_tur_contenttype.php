@@ -10,6 +10,23 @@
 * License:GPL12
 */
 
+// Our custom post type function
+function remove_menus () {
+ global $menu;
+ $user = wp_get_current_user();
+ if ($user->ID!=1) { // Is not administrator,
+
+    $restricted = array(__(__('Posts'));
+    end ($menu);
+    while (prev($menu)){
+        $value = explode(' ',$menu[key($menu)][0]);
+        if(in_array($value[0] != NULL?$value[0]:"" , $restricted)){unset($menu[key($menu)]);}
+     }
+   }
+ }
+ add_action('admin_menu', 'remove_menus');
+
+// Our custom page type function
 
 
 class medialog_tur {
