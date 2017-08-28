@@ -48,7 +48,7 @@ function tur_function() {
 		'label'                 => __( 'Tur', 'grieg_medialog' ),
 		'description'           => __( 'Tur', 'grieg_medialog' ),
 		'labels'                => $labels,
-		'supports'              => array( 'title', 'editor', 'excerpt', 'author', 'thumbnail', 'trackbacks', 'revisions', 'custom-fields', 'page-attributes', 'post-formats', ),
+		'supports'              => array( 'title', 'editor', 'excerpt', 'author', 'thumbnail', 'revisions', 'page-attributes', 'post-formats', ),
 		'taxonomies'            => array( 'category', 'post_tag' ),
 		'hierarchical'          => true,
 		'public'                => true,
