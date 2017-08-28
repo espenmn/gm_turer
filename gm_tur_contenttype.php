@@ -2,7 +2,7 @@
 
 /**
 * Plugin Name: GM Turer Plugin
-* Plugin URI: http://github.com/espenmn
+* Plugin URI: https://github.com/espenmn/gm_turer
 * Description: Adds content type 'tur' to wordpress
 * Version: 1.0
 * Author: Espen Moe-Nilssen
@@ -10,7 +10,7 @@
 * License:GPL12
 */
 
-// Our custom post type function
+
 
 class medialog_tur {
 
